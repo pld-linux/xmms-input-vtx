@@ -22,12 +22,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 XMMS plugin for playing AY/YM music in Vortex format. This format was
-used on many 8-bit computers like ZX Spectrum, Amstrad, Atari.
+used on many old computers like ZX Spectrum, Amstrad, Atari ST.
 
 %description -l pl
 Wtyczka wej¶ciowa dla XMMS-a odtwarzaj±ca pliki muzyczne AY/YM w
-formacie Vortex. Format ten by³ u¿ywany na wielu 8 bitowych
-komputerach takich jak ZX Spectrum, Amstrad, Atari.
+formacie Vortex. Format ten by³ u¿ywany na wielu starych komputerach
+takich jak ZX Spectrum, Amstrad, Atari ST.
 
 %prep
 %setup -q -n xmms-vtx-%{version}
