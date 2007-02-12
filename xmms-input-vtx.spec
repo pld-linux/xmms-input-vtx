@@ -1,5 +1,5 @@
 Summary:	XMMS plugin for playing Vortex format AY/YM music
-Summary(pl):	Wtyczka wej∂ciowa dla XMMS-a odtwarzaj±ca pliki muzyczne AY/YM w formacie Vortex
+Summary(pl.UTF-8):   Wtyczka wej≈õciowa dla XMMS-a odtwarzajƒÖca pliki muzyczne AY/YM w formacie Vortex
 Name:		xmms-input-vtx
 Version:	0.8.1
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XMMS plugin for playing AY/YM music in Vortex format. This format was
 used on many old computers like ZX Spectrum, Amstrad, Atari ST.
 
-%description -l pl
-Wtyczka wej∂ciowa dla XMMS-a odtwarzaj±ca pliki muzyczne AY/YM w
-formacie Vortex. Format ten by≥ uøywany na wielu starych komputerach
+%description -l pl.UTF-8
+Wtyczka wej≈õciowa dla XMMS-a odtwarzajƒÖca pliki muzyczne AY/YM w
+formacie Vortex. Format ten by≈Ç u≈ºywany na wielu starych komputerach
 takich jak ZX Spectrum, Amstrad, Atari ST.
 
 %prep
