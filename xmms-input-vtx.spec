@@ -1,17 +1,16 @@
 Summary:	XMMS plugin for playing Vortex format AY/YM music
 Summary(pl.UTF-8):	Wtyczka wejściowa dla XMMS-a odtwarzająca pliki muzyczne AY/YM w formacie Vortex
 Name:		xmms-input-vtx
-Version:	0.8.1
+Version:	0.9.1
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/libayemu/xmms-vtx-%{version}.tar.gz
-# Source0-md5:	c7db5d5093df31809cf5d9d838d1a78b
-Patch0:		%{name}-ac.patch
+# Source0-md5:	3d12ae042494250f7fe46c0b68d117c2
 URL:		http://sashnov.nm.ru/libayemu.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtk+-devel >= 1.2.0
+BuildRequires:	gtk+-devel >= 1.2.3
 BuildRequires:	libayemu-devel >= 0.9
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
@@ -31,7 +30,6 @@ takich jak ZX Spectrum, Amstrad, Atari ST.
 
 %prep
 %setup -q -n xmms-vtx-%{version}
-%patch0 -p1
 
 %build
 %{__libtoolize}
